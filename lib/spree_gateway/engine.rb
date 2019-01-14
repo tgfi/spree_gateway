@@ -17,6 +17,7 @@ module SpreeGateway
         app.config.spree.payment_methods << Spree::Gateway::Fatzebra
         app.config.spree.payment_methods << Spree::Gateway::Linkpoint
         app.config.spree.payment_methods << Spree::Gateway::Moneris
+        app.config.spree.payment_methods << Spree::Gateway::MerchantOne
         app.config.spree.payment_methods << Spree::Gateway::PayJunction
         app.config.spree.payment_methods << Spree::Gateway::PayPalGateway
         app.config.spree.payment_methods << Spree::Gateway::SagePay
